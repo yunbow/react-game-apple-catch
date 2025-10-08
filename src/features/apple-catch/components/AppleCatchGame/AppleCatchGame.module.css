@@ -1,0 +1,20 @@
+.gameContainer {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background: var(--color-background);
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 0 auto;
+  touch-action: none;
+  box-shadow: var(--shadow-lg);
+}
+
+.startButtonContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}

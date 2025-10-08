@@ -1,0 +1,10 @@
+.scoreDisplay {
+  color: var(--color-foreground);
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: var(--shadow-sm);
+}
+
+.value {
+  font-weight: bold;
+}

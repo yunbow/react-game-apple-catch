@@ -1,0 +1,14 @@
+.gameOver {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--color-popover);
+  color: var(--color-popover-foreground);
+  padding: 20px;
+  border-radius: var(--radius);
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-xl);
+}
